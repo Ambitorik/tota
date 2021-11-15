@@ -16,3 +16,4 @@ def get_jokes(joke):
 
 
 print(get_jokes(1))
+print(get_jokes(2))
