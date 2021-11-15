@@ -12,8 +12,7 @@ def get_jokes(joke):
         random_adverbs = random.choice(adverbs)
         random_adjectives = random.choice(adjectives)
         jokes_list.append(f'{random_nouns}, {random_adverbs}, {random_adjectives}')
-        return jokes_list
+    return jokes_list
 
 
-print(get_jokes(1))
-print(get_jokes(2))
+print(get_jokes(3))
