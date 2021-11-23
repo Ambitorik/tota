@@ -1,0 +1,11 @@
+max_nums = 15
+nums_gen = (n for n in range(1, max_nums + 1, 2))
+print(type(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
+print(next(nums_gen))
