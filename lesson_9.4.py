@@ -40,9 +40,9 @@ class PoliceCar(Car):
     pass
 
 
-town_car = TownCar(70, 'Черная', 'Городская машина', True)
-sport_car = SportCar(180, 'Желтая', 'Спортивная машина', True)
-work_car = WorkCar(90, 'Белая', 'Рабочая машина', True)
+town_car = TownCar(70, 'Черная', 'Городская машина', False)
+sport_car = SportCar(180, 'Желтая', 'Спортивная машина', False)
+work_car = WorkCar(90, 'Белая', 'Рабочая машина', False)
 police_car = PoliceCar(140, 'Розовая', 'Полицейская машина', True)
 
 sport_car.go()
